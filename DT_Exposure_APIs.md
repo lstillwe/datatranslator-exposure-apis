@@ -317,5 +317,4 @@ Example output:
 Architecture Diagram
 ====================
 
-![](./exposure_apis.png){width="6.5927996500437445in"
-height="3.5027777777777778in"}
+![](./exposure_apis.png)
