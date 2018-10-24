@@ -12,4 +12,4 @@ Repository: https://github.com/valenal/roadway-proximity-api
 Socio-Economic - selected socio-economic data obtained from the American Community Survey dataset
 Repository: https://github.com/lstillwe/socio-economic-api
 
-See the following document for more detailed information: https://github.com/lstillwe/datatranslator-exposure-apis/blob/master/DT_Exposure_APIs.docx
+See the following document for more detailed information: https://github.com/lstillwe/datatranslator-exposure-apis/blob/master/DT_Exposure_APIs.md
