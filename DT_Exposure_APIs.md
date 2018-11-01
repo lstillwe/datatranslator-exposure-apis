@@ -27,7 +27,7 @@ Python/Flask code generator.
 ### SwaggerHub Links
 
 SwaggerHub is a API definition repository. Users are allowed 3 free API
-definitions per account. The exposure API repositions are located here:
+definitions per account. The exposure API definitions are located here:
 
 -   CMAQ -
     <https://app.swaggerhub.com/apis/proximity_api/cmaq-exposures-api/1.0.0>
