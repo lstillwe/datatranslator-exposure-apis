@@ -267,19 +267,19 @@ limitation perimeter (in meters) Default is 500 meters.
 Example input:
 ```
 curl -X GET --header 'Accept: application/json'
-'http://bdt-proximity.renci.org:8080/roadway_proximity_api/v1/distance?latitude=35.78&longitude=-78.7&limit_distance=500'
+'http://bdt-proximity.renci.org:8080/roadway_proximity_api/v1/distance?latitude=35.8968&longitude=-79.05&limit_distance=500'
 ```
 Example output:
 ```
 {
- "aadt": 5700,
- "distance": 267.97875974,
- "latitude": 35.78,
- "longitude": -78.7,
- "roadtype": "Urban Restricted Access",
- "route_id": "80000784092",
- "speed": 25,
- "through_lanes": 1
+  "aadt":45000,
+  "distance":199.21980213,
+  "latitude":35.8968,
+  "longitude":-79.05,
+  "roadtype":"Urban Restricted Access",
+  "route_id":"20000015068",
+  "speed":45,
+  "through_lanes":4
 }
 ```
 Socio-economic Exposures API
