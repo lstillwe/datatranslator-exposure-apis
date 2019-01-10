@@ -91,32 +91,45 @@ entire US. The features provided in the ACS data are:
 -   GEOID – a FIPS like code for identifying which census block group
     this data pertains to.
 
--   STUSAB – state abbreviation
-
--   FeatureVariableName – unknown – contains no values
-
 -   EstResidentialDensity – estimated total population
+
+-   EstResidentialDensity_SE – estimated total population standard error
 
 -   EstResidentialDensity25Plus - estimated total population of people
     age 25 and older
+    
+-   EstResidentialDensity25Plus_SE - estimated total population of people
+    age 25 and older standard error
 
 -   EstProbabilityNonHispWhite – estimated probability of non-Hispanic
     white
-
--   EstProbabilityHouseholdNonHispWhite - estimated probability of
-    non-Hispanic white households
+    
+-   EstProbabilityNonHispWhite_SE – estimated probability of non-Hispanic
+    white standard error
 
 -   EstProbabilityHighSchoolMaxEducation - estimated probability of high
     school as maximum education
+    
+-   EstProbabilityHighSchoolMaxEducation_SE - estimated probability of high
+    school as maximum education standard error
 
 -   EstProbabilityNoAuto - estimated probability of no automobile
 
+-   EstProbabilityNoAuto_SE - estimated probability of no automobile standard error
+
 -   EstProbabilityNoHealthIns - estimated probability of no health
     insurance
+    
+-   EstProbabilityNoHealthIns_SE - estimated probability of no health
+    insurance standard error
 
 -   EstProbabilityESL – estimated probability of no English language
 
+-   EstProbabilityESL_SE – estimated probability of no English language standard error
+
 -   EstHouseholdIncome – estimated household income
+
+-   EstHouseholdIncome_SE – estimated household income standard error
 
 Also, US census block group data was obtained from census.gov for all US
 states, in shapefile format.
@@ -299,18 +312,25 @@ curl -X GET --header 'Accept: application/json'
 Example output:
 ```
 {
- "EstPropHouseholdsNoAuto": 0.141732283,
- "EstPropHouseholdsNonHispWhite": 0.374015748,
- "EstPropPersons25PlusHighSchoolMax": 0.770940171,
- "EstPropPersons5PlusNoEnglish": 0.011737089,
- "EstPropPersonsNoHealthIns": 0.206593407,
- "EstPropPersonsNonHispWhite": 0.296703297,
- "EstTotalPop": 910,
- "EstTotalPop25Plus": 585,
- "MedianHouseholdIncome": "\$32,333.00",
- "geoid": "15000US450339701001",
- "latitude": "34.55",
- "longitude": "-79.44"
+  "EstPropHouseholdsNoAuto": "0.0387323943661972",
+  "EstPropHouseholdsNoAuto_SE": "0.039252128205847",
+  "EstPropNonHispWhite": "0.763758389261745",
+  "EstPropNonHispWhite_SE": "0.105181283383554",
+  "EstPropPersons25PlusHighSchoolMax": "0.531645569620253",
+  "EstPropPersons25PlusHighSchoolMax_SE": "0.0764804287594837",
+  "EstPropPersons5PlusNoEnglish": "0.0750708215297451",
+  "EstPropPersons5PlusNoEnglish_SE": "0.040387048517137",
+  "EstPropPersonsNoHealthIns": "0.183892617449664",
+  "EstPropPersonsNoHealthIns_SE": "0.0633283349669971",
+  "EstTotalPop": "745",
+  "EstTotalPop25Plus": "474",
+  "EstTotalPop25Plus_SE": "76.006249743031",
+  "EstTotalPop_SE": "137.530360284557",
+  "MedianHouseholdIncome": "$29744.00",
+  "MedianHouseholdIncome_SE": "20687.8291659613",
+  "geoid": "15000US010010201001",
+  "latitude": "32.47",
+  "longitude": "-86.5"
 }
 ```
 
