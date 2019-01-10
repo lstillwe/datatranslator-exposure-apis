@@ -36,7 +36,7 @@ definitions per account. The exposure API definitions are located here:
     <https://app.swaggerhub.com/apis/proximity_api/roadway-exposures-api/1.0.0>
 
 -   Socio-economic -
-    <https://app.swaggerhub.com/apis/proximity_api/socio-environmental-exposures-api/1.0.0>
+    <https://app.swaggerhub.com/apis/proximity_api/socio-environmental-exposures-api/1.0.1>
 
 API Data
 --------
